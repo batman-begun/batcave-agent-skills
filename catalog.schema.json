@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Batcave Agent Skills Catalog v1",
+  "type": "object",
+  "required": ["schema", "skills"],
+  "properties": {
+    "schema": {"const": "batcave-skills/catalog/v1"},
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description", "entrypoint"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "entrypoint": {"type": "string"},
+          "version": {"type": "string"},
+          "category": {"type": "string"},
+          "tags": {"type": "array", "items": {"type": "string"}},
+          "runtime_requirements": {"type": "array", "items": {"type": "string"}},
+          "compatibility": {"type": "array", "items": {"type": "string"}},
+          "license": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

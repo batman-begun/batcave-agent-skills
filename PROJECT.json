@@ -1,0 +1,23 @@
+{
+  "schema": "upr/1",
+  "project_id": "batcave-agent-skills",
+  "title": "Batcave Agent Skills — Universal Public Registry",
+  "profiles": ["software", "knowledge"],
+  "tier": "standard",
+  "lifecycle": "proposed",
+  "visibility": "public",
+  "roles": {
+    "intent": "intent/INTENT.md",
+    "context": "intent/CONTEXT.md",
+    "knowledge": "knowledge/INDEX.md",
+    "constraints": "knowledge/CONSTRAINTS.md",
+    "state": "state/STATUS.md",
+    "artifacts": "artifacts/INDEX.md",
+    "verification": "verification/INDEX.md",
+    "evolution": "history/DECISIONS.md"
+  },
+  "software": {
+    "controls": "harness/CONTROLS.md",
+    "verification": "verification/SOFTWARE.md"
+  }
+}
