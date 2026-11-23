@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "category": "project-management",
+  "tags": [
+    "multi-agent",
+    "github",
+    "handoff",
+    "coding-contributor"
+  ],
+  "runtime_requirements": [
+    "git-or-github-access"
+  ]
+}
