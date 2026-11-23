@@ -11,5 +11,6 @@
     "github-read-or-pinned-local-checkout",
     "optional:git-and-python3-for-bootstrap",
     "optional:node-and-chrome-for-upstream-browser-qa"
-  ]
+  ],
+  "license": "MIT"
 }

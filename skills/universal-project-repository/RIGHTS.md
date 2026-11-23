@@ -1,3 +1,3 @@
 # Publication and reuse
 
-The owner authorized public publication of this snapshot. No additional reuse license has been designated for this skill.
+Batcave-owned materials in this package are available under the [MIT License](LICENSE). External material retains its own terms.

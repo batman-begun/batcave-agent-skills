@@ -4,4 +4,4 @@ Approved skills are available on `main`. [catalog.json](../catalog.json) is the 
 
 GitHub Actions checks catalog consistency and runs the registry tests. Check individual skill documentation for runtime requirements and verification limits.
 
-Future additions go through scope, privacy and rights review. A repository-wide reuse license is pending an owner decision.
+Future additions go through scope, privacy and rights review. The registry and the identified contributions in each currently published skill carry MIT terms. Third-party material and image sets follow their documented scope in the README and package notices.

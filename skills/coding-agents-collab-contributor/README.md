@@ -1,3 +1,3 @@
 # Publication and reuse
 
-The owner authorized public publication of this snapshot. A reuse license has yet to be specified.
+This package's Batcave contributions are available under [MIT](LICENSE).

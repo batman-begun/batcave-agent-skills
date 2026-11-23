@@ -12,5 +12,6 @@
   "runtime_requirements": [
     "optional:image-generation",
     "optional:image-editing-and-reference-input"
-  ]
+  ],
+  "license": "MIT"
 }

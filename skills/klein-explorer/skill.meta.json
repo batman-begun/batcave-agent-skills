@@ -9,5 +9,6 @@
   ],
   "runtime_requirements": [
     "web-search-or-source-access-for-external-research"
-  ]
+  ],
+  "license": "MIT"
 }
