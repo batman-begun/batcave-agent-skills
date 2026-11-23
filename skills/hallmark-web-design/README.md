@@ -14,4 +14,4 @@ bash scripts/bootstrap-full-hallmark.sh
 
 The original source repo is MIT licensed; license notice is included. Do not call a ChatGPT design review a SlopLint/browser pass unless the real original scripts executed.
 
-The MIT notice covers the upstream material. The owner authorized public viewing of this adapter snapshot. No separate reuse license for the adapter has been specified.
+The Batcave adapter contributions are covered by [MIT](LICENSE). Material from Nutlope/Hallmark retains the [upstream MIT terms and copyright notice](LICENSE.upstream).

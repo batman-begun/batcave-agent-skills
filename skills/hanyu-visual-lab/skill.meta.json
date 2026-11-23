@@ -1,6 +1,19 @@
 {
   "version": "1.0.0",
   "category": "education",
-  "tags": ["language-learning", "mandarin", "vietnamese", "infographic"],
-  "runtime_requirements": ["python>=3.10", "playwright", "chromium", "cjk-and-vietnamese-fonts", "optional:image-generation", "optional:pillow-for-art-sheet-slicing"]
+  "tags": [
+    "language-learning",
+    "mandarin",
+    "vietnamese",
+    "infographic"
+  ],
+  "runtime_requirements": [
+    "python>=3.10",
+    "playwright",
+    "chromium",
+    "cjk-and-vietnamese-fonts",
+    "optional:image-generation",
+    "optional:pillow-for-art-sheet-slicing"
+  ],
+  "license": "MIT"
 }

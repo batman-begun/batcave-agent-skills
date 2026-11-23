@@ -9,5 +9,6 @@
   ],
   "runtime_requirements": [
     "git-or-github-access"
-  ]
+  ],
+  "license": "MIT"
 }

@@ -9,5 +9,6 @@
   ],
   "runtime_requirements": [
     "optional:python3-for-cli"
-  ]
+  ],
+  "license": "MIT"
 }

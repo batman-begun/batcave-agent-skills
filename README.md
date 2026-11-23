@@ -43,9 +43,15 @@ python3 -m unittest discover -s tests -v
 
 The catalog is generated. Edit `SKILL.md` and optional `skill.meta.json`, not `catalog.json` by hand. Public publication requires approval and a privacy/license review before committing. See [CONSTRAINTS](knowledge/CONSTRAINTS.md).
 
-## Release & licensing
+## Licensing
 
-The owner has not yet chosen a repository license. Public visibility does **not** grant unrestricted reuse rights. Each released skill must have an explicit rights/redistribution review and a documented license or permission terms before publication.
+The Batcave-owned registry scaffolding, generator, schema, tests, CI, and repository-level documentation are available under the [MIT License](LICENSE). The catalog is an index. Each package under `skills/` specifies its own licensing scope.
+
+- The seven current skill packages have MIT terms for the Batcave contributions identified in their individual `LICENSE` files.
+- Hallmark Web Design retains the [upstream MIT notice](skills/hallmark-web-design/LICENSE.upstream) for material from Nutlope/Hallmark.
+- WonderAnime's MIT grant covers its written material. Its visual reference and near-miss image sets remain private and have no public license grant.
+- External materials and future assets follow their own terms.
+
 
 ## Governance
 

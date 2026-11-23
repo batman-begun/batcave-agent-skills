@@ -16,7 +16,8 @@
       ],
       "runtime_requirements": [
         "git-or-github-access"
-      ]
+      ],
+      "license": "MIT"
     },
     {
       "id": "coding-agents-collab-leader",
@@ -33,7 +34,8 @@
       ],
       "runtime_requirements": [
         "git-or-github-access"
-      ]
+      ],
+      "license": "MIT"
     },
     {
       "id": "hallmark-web-design",
@@ -52,7 +54,8 @@
         "github-read-or-pinned-local-checkout",
         "optional:git-and-python3-for-bootstrap",
         "optional:node-and-chrome-for-upstream-browser-qa"
-      ]
+      ],
+      "license": "MIT"
     },
     {
       "id": "hanyu-visual-lab",
@@ -74,7 +77,8 @@
         "cjk-and-vietnamese-fonts",
         "optional:image-generation",
         "optional:pillow-for-art-sheet-slicing"
-      ]
+      ],
+      "license": "MIT"
     },
     {
       "id": "klein-explorer",
@@ -91,7 +95,8 @@
       ],
       "runtime_requirements": [
         "web-search-or-source-access-for-external-research"
-      ]
+      ],
+      "license": "MIT"
     },
     {
       "id": "universal-project-repository",
@@ -108,7 +113,8 @@
       ],
       "runtime_requirements": [
         "optional:python3-for-cli"
-      ]
+      ],
+      "license": "MIT"
     },
     {
       "id": "wonderanime-gouache-grungecel-image",
@@ -128,7 +134,8 @@
       "runtime_requirements": [
         "optional:image-generation",
         "optional:image-editing-and-reference-input"
-      ]
+      ],
+      "license": "MIT"
     }
   ]
 }

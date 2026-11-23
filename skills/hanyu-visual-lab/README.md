@@ -71,4 +71,4 @@ Review individual crops against their phrases; correct index or regenerate misma
 
 ## Publication and reuse
 
-The owner authorized public viewing of this package in Batcave Agent Skills. A reuse or redistribution license has yet to be specified.
+This package's Batcave contributions are available under [MIT](LICENSE).
