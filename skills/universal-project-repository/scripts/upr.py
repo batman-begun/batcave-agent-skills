@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""UPR/1 offline scaffolder and structural lint (v1.1.2). No network, Git, or overwriting."""
+"""UPR/1 offline scaffolder and structural lint (v1.2.0). No network, Git, or overwriting."""
 import argparse
 import json
 import re
 import sys
 from pathlib import Path, PurePosixPath
 
-SKILL_VERSION = '1.1.2'
+SKILL_VERSION = '1.2.0'
 ROLES = ('intent', 'context', 'knowledge', 'constraints', 'state', 'artifacts', 'verification', 'evolution')
 PROFILES = {'software', 'novel', 'comic', 'science', 'philosophy', 'contemplation', 'business', 'knowledge', 'custom'}
 TIERS = ('lite', 'micro', 'standard', 'extended')
@@ -85,7 +85,7 @@ def build(project_id, title, profiles, tier, manifest_name='PROJECT.json'):
     if tier == 'extended':
         files['RISK-REGISTER.md'] = f'# Risk register\n\n{MARK}: risk, owner, mitigation, residual risk, decision.\n'
         files['COMPONENTS.md'] = f'# Component index\n\n{MARK}: scope, profile, role map, dependencies, authority.\n'
-    files['README.md'] = (f'# {title}\n\n{MARK}: describe purpose and current stage. See {manifest_name} for the role map'
+    files['README.md'] = (f'# {title}\n\n{MARK}: describe the purpose, current stage and first thing a reader should read or try. See {manifest_name} for the role map'
                           + ('; AGENTS.md for navigation' if tier != 'lite' else '; STATE.md for the project record')
                           + '. Scaffold only; no publication or readiness implied.\n')
     if tier != 'lite':
