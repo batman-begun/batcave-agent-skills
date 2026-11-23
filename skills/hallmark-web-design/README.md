@@ -1,6 +1,8 @@
-# Hallmark Web Design v0.2.1
+# Hallmark Web Design v0.3.0
 
 This is a portable skill adapter for Nutlope/Hallmark pinned at upstream commit `04977e15f3dfd6ee4b74c887dac3eb52665d6c92`.
+
+Hallmark UI/UX v2.1 adds a six-step workflow and one [Unified Design Contract](references/unified-design-contract.md) for observing an existing UI, exploring directions and recording approved UX decisions in the project canon. Stitch is optional.
 
 **Includes:** complete 50/50 *theme catalog*, source-resolution instructions using GitHub or a verified local checkout, preservation-first workflows, MIT attribution, and a script to install the *complete* upstream source into OpenCode/Codex. This plugin can read original theme definitions on demand through GitHub (text) but it is **not a full offline upstream source archive**.
 
