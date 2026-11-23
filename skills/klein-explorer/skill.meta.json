@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "category": "research",
+  "tags": [
+    "research",
+    "discovery",
+    "source-verification",
+    "critical-thinking"
+  ],
+  "runtime_requirements": [
+    "web-search-or-source-access-for-external-research"
+  ]
+}

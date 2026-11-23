@@ -1,0 +1,24 @@
+# Independent review protocol (Elephant–Goldfish inspired)
+
+Objective: reduce inherited anchoring and detect errors across domains, without hiding relevant evidence. Independent context is not a guarantee of independent errors. This is an extension of the general fresh-reviewer pattern, not an assertion of implementing Google's upstream tooling.
+
+## Roles and rounds
+Elephant: maintains rich owner/project context, develops intent/design, implementation or artifacts, and checkpoints. Goldfish: fresh reviewer receives a purpose-built packet and an immutable target identity. Owner chooses tradeoffs and approves authoritative changes. A trusted deterministic checker verifies applicable claims; it must not depend on trusting builder's prose.
+
+R0 independent design challenge BEFORE implementation: approved goals (or clearly proposed goals), constraints, alternative requirements, design under review; first ask reviewer to derive risks/invariants from requirements, then reveal proposed design if blind-first is feasible. Record mismatches, untested assumptions, scope and owner resolutions.
+R1 independent artifact review AFTER implementation: reviewer sees relevant artifact and approved criteria. Disclose baseline and target identifiers, required dependencies, environment and access. Withhold builder's arguments, self-rating, private dialog and prior reviewer conclusions until initial findings are frozen. Do not withhold rationale required to understand safety-critical intent: disclose accepted decision record with status, then label potential anchoring.
+R2 adjudication: compare initial findings and reproducible observations; rerun failing checks on the exact target. Challenge false positives, record disagreements, fix with scoped changes and repeat affected checks on new target. Do not erase initial dissent. Owner decides tradeoffs; safety-critical gaps remain blocked. A review of old revision does not automatically approve new revision.
+
+## Reviewer lenses
+- Blackbox: behavior/artifact consumer, acceptance criteria and fixtures; no implementation initially. Software: exercise public interface, auth boundaries where authorized, error paths. Creative: audience experience, sequence, typography. Research: reproduce result from documented protocol where feasible.
+- Whitebox: actual source or manuscript/model, dependencies, relevant approved architecture/canon and diff; read-only where available. Can inspect repository tree and necessary files; no conversation history unless needed and documented. Tests static structure, consistency and edge cases, not stylistic preference alone.
+- Intent: approved intent and target output, mapping to requirements and exclusions; detect scope/semantic drift.
+- Red-team/challenger when relevant: counterexamples, adversarial test cases within authorized scope, threat or alternative argument. No harmful real-world actions.
+
+## Isolation and packet rules
+Prefer fresh session/subagent, minimal allowlisted file snapshot or checkout pinned to revision; no prior chat, model memory, cached summaries, hidden shared scratchpad or builder report where feasible. Host/system instructions may still overlap; disclose actual isolation capabilities. Different models are optional diversity, not proof. Reviewer must not be forced to guess dependencies; provide repo read access or request more context, record what was disclosed. If host cannot isolate, label CONTEXT-SHARED, not independent. If necessary inputs unavailable, label INCOMPLETE, not passed.
+
+Packet: review_id, lens, stage, target revision/content digest or snapshot ID, approved criteria/constraint IDs and sources, allowed scope, environment and reproducible commands, relevant paths/fixtures, explicitly withheld context, known limitations, read-only permission, report schema. Initial results frozen before builder explanations. If using an archive exclude secrets/history by default; don't expose sensitive content to external providers without authorization. No hidden evaluation-answer leakage. Independent reviewer does not change candidate or approval state; proposes fixes. External CI or owner-controlled rules protect required checks from builder modifications.
+
+## Finding and evidence schema
+Finding ID; target version; severity (critical/high/medium/low/info, justified); criterion and source; observed vs expected; exact location or reproduction steps; evidence URI/hash/log or quoted excerpt as appropriate; confidence and limitations; suggested next check; disposition and decision authority. Use PASS/FAIL/INCONCLUSIVE/NOT_RUN for evaluated criteria. A reviewer opinion is not executable proof. A test pass is bounded by coverage; a mathematical proof is bounded by formal specification, assumptions, trusted checker and link to actual implementation. Human intent and legitimacy remain separately reviewable.
