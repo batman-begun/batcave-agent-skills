@@ -1,0 +1,13 @@
+{
+  "version": "1.1.2",
+  "category": "project-management",
+  "tags": [
+    "project-management",
+    "handoff",
+    "repository",
+    "verification"
+  ],
+  "runtime_requirements": [
+    "optional:python3-for-cli"
+  ]
+}
