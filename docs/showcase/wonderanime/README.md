@@ -2,6 +2,10 @@
 
 WonderAnime applies a gouache and grungecel rendering vocabulary to new images, edits or prompts. Its [public style canon](../../../skills/wonderanime-gouache-grungecel-image/references/style-canon.md) defines color, ink, cel shadows and texture. Try these briefs to see how the choices hold up across subjects.
 
+![WonderAnime triptych showing a scooter mechanic on a wet night street, a snowy weather station at blue hour, and a baker shaping dough](three-scenes.webp)
+
+The triptych was generated for this showcase from the public style canon and the three briefs below.
+
 | Brief | What to inspect |
 | --- | --- |
 | Mechanic wiping an old scooter at the end of a night shift, with warm tube light and a wet street | Crisp shadows, readable silhouette and scuffs specific to the scooter's materials. |
