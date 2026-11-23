@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "category": "design",
+  "tags": [
+    "web-design",
+    "ui-audit",
+    "accessibility",
+    "redesign"
+  ],
+  "runtime_requirements": [
+    "github-read-or-pinned-local-checkout",
+    "optional:git-and-python3-for-bootstrap",
+    "optional:node-and-chrome-for-upstream-browser-qa"
+  ]
+}
