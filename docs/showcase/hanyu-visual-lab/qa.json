@@ -1,0 +1,93 @@
+{
+  "status": "PASS_ILLUSTRATED",
+  "warnings": [],
+  "issues": [],
+  "source_mode": "topic",
+  "item_count": 12,
+  "input_sha256": "231f68b617ee69dd7758ae1f37fddb3dd50c4cd8cb82600a2513f1796bad75ad",
+  "illustrations": {
+    "present": 12,
+    "total": 12,
+    "missing_ids": []
+  },
+  "dimensions": {
+    "width": 1600,
+    "height": 1200
+  },
+  "fontReady": "loaded",
+  "elementCount": 12,
+  "renderedText": [
+    {
+      "id": "01",
+      "hanzi": "这是我爸爸",
+      "pinyin": "Zhè shì wǒ bàba",
+      "vi": "Đây là bố tôi"
+    },
+    {
+      "id": "02",
+      "hanzi": "这是我妈妈",
+      "pinyin": "Zhè shì wǒ māma",
+      "vi": "Đây là mẹ tôi"
+    },
+    {
+      "id": "03",
+      "hanzi": "我有一个哥哥",
+      "pinyin": "Wǒ yǒu yí ge gēge",
+      "vi": "Tôi có một anh trai"
+    },
+    {
+      "id": "04",
+      "hanzi": "她是我姐姐",
+      "pinyin": "Tā shì wǒ jiějie",
+      "vi": "Cô ấy là chị gái tôi"
+    },
+    {
+      "id": "05",
+      "hanzi": "我们是一家人",
+      "pinyin": "Wǒmen shì yì jiā rén",
+      "vi": "Chúng tôi là một gia đình"
+    },
+    {
+      "id": "06",
+      "hanzi": "我们住在一起",
+      "pinyin": "Wǒmen zhù zài yìqǐ",
+      "vi": "Chúng tôi sống cùng nhau"
+    },
+    {
+      "id": "07",
+      "hanzi": "我已经结婚了",
+      "pinyin": "Wǒ yǐjīng jiéhūn le",
+      "vi": "Tôi đã kết hôn"
+    },
+    {
+      "id": "08",
+      "hanzi": "我还没结婚",
+      "pinyin": "Wǒ hái méi jiéhūn",
+      "vi": "Tôi chưa kết hôn"
+    },
+    {
+      "id": "09",
+      "hanzi": "这是我的妻子",
+      "pinyin": "Zhè shì wǒ de qīzi",
+      "vi": "Đây là vợ tôi"
+    },
+    {
+      "id": "10",
+      "hanzi": "这是我的丈夫",
+      "pinyin": "Zhè shì wǒ de zhàngfu",
+      "vi": "Đây là chồng tôi"
+    },
+    {
+      "id": "11",
+      "hanzi": "我们常常一起吃饭",
+      "pinyin": "Wǒmen chángcháng yìqǐ chīfàn",
+      "vi": "Chúng tôi thường ăn cơm cùng nhau"
+    },
+    {
+      "id": "12",
+      "hanzi": "周末我们去看父母",
+      "pinyin": "Zhōumò wǒmen qù kàn fùmǔ",
+      "vi": "Cuối tuần chúng tôi đi thăm bố mẹ"
+    }
+  ]
+}
