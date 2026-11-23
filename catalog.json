@@ -38,6 +38,30 @@
       "license": "MIT"
     },
     {
+      "id": "ffmpeg-motion-director",
+      "name": "ffmpeg-motion-director",
+      "description": "Use on explicit request to turn still images, folders or image ZIPs into cinematic 30-second videos. Inspect images, choose among 15 FFmpeg motion effects and deliver verified ZIPs of up to five clips per batch.",
+      "entrypoint": "skills/ffmpeg-motion-director/SKILL.md",
+      "version": "0.4.1",
+      "category": "video",
+      "tags": [
+        "ffmpeg",
+        "motion-design",
+        "image-to-video",
+        "batch-rendering"
+      ],
+      "runtime_requirements": [
+        "python>=3.10",
+        "ffmpeg-with-libx264",
+        "ffprobe",
+        "pillow",
+        "numpy",
+        "opencv-python-headless",
+        "image-inspection-for-agent-direction"
+      ],
+      "license": "MIT"
+    },
+    {
       "id": "hallmark-web-design",
       "name": "hallmark-web-design",
       "description": "Use Hallmark Web Design when asked to design distinctive websites or interfaces, audit UI for generic AI-design patterns, or explicitly redesign an existing site while preserving functionality. Also trigger for Hallmark and anti-AI-slop design requests; do not silently redesign existing products.",

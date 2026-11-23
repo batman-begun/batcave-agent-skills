@@ -1,0 +1,20 @@
+{
+  "version": "0.4.1",
+  "category": "video",
+  "tags": [
+    "ffmpeg",
+    "motion-design",
+    "image-to-video",
+    "batch-rendering"
+  ],
+  "runtime_requirements": [
+    "python>=3.10",
+    "ffmpeg-with-libx264",
+    "ffprobe",
+    "pillow",
+    "numpy",
+    "opencv-python-headless",
+    "image-inspection-for-agent-direction"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: FFmpeg Motion Director
+  short_description: Từ ảnh tĩnh sang video 480p
+policy:
+  allow_implicit_invocation: false
