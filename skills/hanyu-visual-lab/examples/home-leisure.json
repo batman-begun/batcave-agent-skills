@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "source_mode": "data",
+  "topic": "Ở nhà thư giãn",
+  "layout": "vocabulary-clusters",
+  "title_zh": "在家休闲",
+  "subtitle_vi": "Ở nhà thư giãn – Học tiếng Trung thật vui!",
+  "sections": [
+    {
+      "title_vi": "Nghe nhạc & ca hát",
+      "items": [
+        {
+          "id": "01",
+          "hanzi": "听音乐",
+          "pinyin": "tīng yīnyuè",
+          "vi": "nghe nhạc",
+          "art_brief": "Girl listening through headphones"
+        },
+        {
+          "id": "02",
+          "hanzi": "唱一首歌",
+          "pinyin": "chàng yì shǒu gē",
+          "vi": "hát một bài",
+          "art_brief": "Girl singing with microphone"
+        },
+        {
+          "id": "03",
+          "hanzi": "歌很好听",
+          "pinyin": "gē hěn hǎotīng",
+          "vi": "bài hát hay",
+          "art_brief": "Girl enjoying a lovely song"
+        },
+        {
+          "id": "04",
+          "hanzi": "非常有名",
+          "pinyin": "fēicháng yǒumíng",
+          "vi": "rất nổi tiếng",
+          "art_brief": "A popular star singer on stage without signs"
+        }
+      ]
+    },
+    {
+      "title_vi": "Dọn dẹp & ở trong nhà",
+      "items": [
+        {
+          "id": "05",
+          "hanzi": "整理房间",
+          "pinyin": "zhěnglǐ fángjiān",
+          "vi": "sắp xếp phòng",
+          "art_brief": "Girl organizing books in room"
+        },
+        {
+          "id": "06",
+          "hanzi": "打扫厨房",
+          "pinyin": "dǎsǎo chúfáng",
+          "vi": "dọn bếp",
+          "art_brief": "Girl cleaning kitchen counter"
+        },
+        {
+          "id": "07",
+          "hanzi": "收拾卧室",
+          "pinyin": "shōushi wòshì",
+          "vi": "dọn phòng ngủ",
+          "art_brief": "Girl making her bed"
+        },
+        {
+          "id": "08",
+          "hanzi": "坐在沙发上",
+          "pinyin": "zuò zài shāfā shàng",
+          "vi": "ngồi trên sofa",
+          "art_brief": "Girl resting on sofa"
+        },
+        {
+          "id": "09",
+          "hanzi": "请进来",
+          "pinyin": "qǐng jìnlái",
+          "vi": "mời vào",
+          "art_brief": "Girl welcoming friend at door"
+        }
+      ]
+    },
+    {
+      "title_vi": "Ăn uống & vui vẻ",
+      "items": [
+        {
+          "id": "10",
+          "hanzi": "喝果汁",
+          "pinyin": "hē guǒzhī",
+          "vi": "uống nước ép",
+          "art_brief": "Girl sipping orange juice"
+        },
+        {
+          "id": "11",
+          "hanzi": "喝咖啡",
+          "pinyin": "hē kāfēi",
+          "vi": "uống cà phê",
+          "art_brief": "Girl holding a steaming coffee cup"
+        },
+        {
+          "id": "12",
+          "hanzi": "吃西瓜",
+          "pinyin": "chī xīguā",
+          "vi": "ăn dưa hấu",
+          "art_brief": "Girl eating watermelon slice"
+        },
+        {
+          "id": "13",
+          "hanzi": "烤玉米",
+          "pinyin": "kǎo yùmǐ",
+          "vi": "bắp nướng",
+          "art_brief": "Grilled corn with girl enjoying snack"
+        },
+        {
+          "id": "14",
+          "hanzi": "吃蛋糕",
+          "pinyin": "chī dàngāo",
+          "vi": "ăn bánh",
+          "art_brief": "Girl eating strawberry cake"
+        },
+        {
+          "id": "15",
+          "hanzi": "拍照片",
+          "pinyin": "pāi zhàopiàn",
+          "vi": "chụp ảnh",
+          "art_brief": "Girl using a camera"
+        }
+      ]
+    },
+    {
+      "title_vi": "Xem ảnh, thú cưng & mua đồ",
+      "items": [
+        {
+          "id": "16",
+          "hanzi": "看照片",
+          "pinyin": "kàn zhàopiàn",
+          "vi": "xem ảnh",
+          "art_brief": "Girl viewing photos on tablet"
+        },
+        {
+          "id": "17",
+          "hanzi": "养猫",
+          "pinyin": "yǎng māo",
+          "vi": "nuôi mèo",
+          "art_brief": "Girl hugging a fluffy gray cat"
+        },
+        {
+          "id": "18",
+          "hanzi": "买玩具",
+          "pinyin": "mǎi wánjù",
+          "vi": "mua đồ chơi",
+          "art_brief": "Girl choosing plush bunny toy"
+        },
+        {
+          "id": "19",
+          "hanzi": "非常可爱",
+          "pinyin": "fēicháng kě'ài",
+          "vi": "rất đáng yêu",
+          "art_brief": "Girl adoring a happy cat"
+        },
+        {
+          "id": "20",
+          "hanzi": "有点贵",
+          "pinyin": "yǒudiǎn guì",
+          "vi": "hơi đắt",
+          "art_brief": "Girl wondering about a pricey toy without price text"
+        }
+      ]
+    }
+  ],
+  "memory_item_ids": [
+    "01",
+    "05",
+    "08",
+    "11",
+    "15",
+    "17",
+    "19",
+    "20"
+  ],
+  "corrections": [],
+  "uncertain_items": []
+}
