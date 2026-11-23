@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Kiln · Workshop demo</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; background: #edf0f3; color: #243449; font: 16px/1.5 system-ui, sans-serif; }
+main { max-width: 680px; margin: auto; padding: 28px 20px 44px; }
+header { margin-bottom: 28px; }
+header p { margin: 0; font-weight: 650; }
+h1 { margin: 0 0 12px; font-size: 32px; line-height: 1.06; }
+.intro { margin: 0 0 16px; }
+dl { display: flex; flex-wrap: wrap; gap: 12px 22px; margin: 0 0 26px; }
+dt { font-size: 13px; font-weight: 700; }
+dd { margin: 0; }
+form { display: grid; padding: 18px; gap: 10px; border: 1px solid #adbac7; border-radius: 10px; background: #fff; }
+h2 { margin: 0; font-size: 20px; }
+label { font-weight: 650; }
+input, button { min-height: 44px; width: 100%; border-radius: 5px; font: inherit; }
+input { padding: 10px; border: 1px solid #687b91; }
+button { border: 0; padding: 12px; background: #245b8a; color: white; font-weight: 700; cursor: pointer; }
+:focus-visible { outline: 3px solid #a34b14; outline-offset: 3px; }
+#status { margin: 0; color: #2b613c; }
+#status:empty { margin-top: -10px; }
+body.after { color: #211a15; background: #f7f0e5; }
+.after main { padding: 20px 22px 34px; }
+.after header { border-bottom: 1px solid #bbaa94; margin-bottom: 26px; padding: 0 0 13px; }
+.after header p { font: 700 16px Georgia, serif; }
+.after article { display: grid; grid-template-areas: "intro" "details" "form"; }
+.after .text { grid-area: intro; }
+.after h1 { font: 500 clamp(46px, 12vw, 76px)/.94 Georgia, serif; letter-spacing: -.055em; text-wrap: balance; margin-bottom: 16px; }
+.after .intro { color: #544538; max-width: 36ch; }
+.after dl { grid-area: details; gap: 0; border-block: 1px solid #bbaa94; margin-bottom: 21px; padding: 9px 0; }
+.after dl div { flex: 1 1 90px; padding-right: 8px; }
+.after dt { color: #5c4d3e; }
+.after form { grid-area: form; border-color: #af9b83; border-radius: 3px; background: #fff9f0; padding: 15px; }
+.after h2 { font: 700 22px Georgia, serif; }
+.after input { border-color: #876f59; }
+.after button { background: #78391f; }
+</style>
+<body>
+<main>
+  <header><p>Night Kiln</p></header>
+  <article>
+    <div class="text">
+      <h1>Make a cup by hand.</h1>
+      <p class="intro">Shape a clay cup in a two-hour evening workshop. Tools and materials are included.</p>
+    </div>
+    <dl>
+      <div><dt>When</dt><dd>Thursday, 18:30</dd></div>
+      <div><dt>Where</dt><dd>Studio 02</dd></div>
+      <div><dt>Level</dt><dd>Beginner</dd></div>
+    </dl>
+    <form>
+      <h2>Reserve a demo seat</h2>
+      <label for="email">Email address</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+      <button type="submit">Reserve seat</button>
+      <p id="status" role="status"></p>
+    </form>
+  </article>
+</main>
+<script>
+if (new URLSearchParams(location.search).get('variant') === 'after') document.body.classList.add('after');
+document.querySelector('form').addEventListener('submit', (event) => {
+  event.preventDefault();
+  document.getElementById('status').textContent = 'Demo seat reserved. No email was sent.';
+});
+</script>
+</body>
+</html>

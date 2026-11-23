@@ -1,0 +1,43 @@
+{
+  "browser": "Chromium headless shell",
+  "checks": [
+    "horizontal overflow",
+    "workshop facts",
+    "email label",
+    "keyboard order and visible focus",
+    "empty and invalid email",
+    "valid local confirmation"
+  ],
+  "results": [
+    {
+      "variant": "before",
+      "viewport_css_px": 320,
+      "result": "PASS"
+    },
+    {
+      "variant": "before",
+      "viewport_css_px": 390,
+      "result": "PASS"
+    },
+    {
+      "variant": "before",
+      "viewport_css_px": 430,
+      "result": "PASS"
+    },
+    {
+      "variant": "after",
+      "viewport_css_px": 320,
+      "result": "PASS"
+    },
+    {
+      "variant": "after",
+      "viewport_css_px": 390,
+      "result": "PASS"
+    },
+    {
+      "variant": "after",
+      "viewport_css_px": 430,
+      "result": "PASS"
+    }
+  ]
+}
