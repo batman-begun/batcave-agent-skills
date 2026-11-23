@@ -1,4 +1,27 @@
 {
   "schema": "batcave-skills/catalog/v1",
-  "skills": []
+  "skills": [
+    {
+      "id": "hanyu-visual-lab",
+      "name": "hanyu-visual-lab",
+      "description": "Build one or more Chinese–Pinyin–Vietnamese kawaii educational infographic images from either a three-column vocabulary/phrase table (Data Mode) or a topic/request (Topic Mode). Plans lessons, validates language, designs textless illustrations, lays out exact multilingual typography in code, runs visual QA, and exports PNG plus editable HTML and JSON.",
+      "entrypoint": "skills/hanyu-visual-lab/SKILL.md",
+      "version": "1.0.0",
+      "category": "education",
+      "tags": [
+        "language-learning",
+        "mandarin",
+        "vietnamese",
+        "infographic"
+      ],
+      "runtime_requirements": [
+        "python>=3.10",
+        "playwright",
+        "chromium",
+        "cjk-and-vietnamese-fonts",
+        "optional:image-generation",
+        "optional:pillow-for-art-sheet-slicing"
+      ]
+    }
+  ]
 }
