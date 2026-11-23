@@ -1,8 +1,8 @@
 ---
 name: universal-project-repository
-description: Set up, resume, audit or hand off durable human–AI projects across software, fiction, comics, research, philosophy, business and mixed domains. Use for new project repositories, substantial checkpoints, canon or specification updates, repository adoption and independent review packets. Skip routine edits and one-off chats unless they affect a durable project record.
+description: Set up, resume, audit or hand off durable human–AI projects across software, fiction, comics, research, philosophy, business and mixed domains. Use for new project repositories, substantial checkpoints, canon or specification updates, repository adoption, public project entrypoints and independent review packets. Skip routine edits and one-off chats unless they affect a durable project record.
 metadata:
-  version: "1.1.2"
+  version: "1.2.0"
   architecture: "UPR/1"
 ---
 # Universal Project Repository (UPR)
@@ -17,6 +17,10 @@ Use lite for small, low-risk work. Choose standard directly for public or multi-
 - Revisit the tier when collaboration, risk or canon grows. Tiers: `references/repository-contract.md`.
 - Existing repo: read its rules, map existing equivalents, add indexes rather than moving files. Do not reorganize to match this skill.
 - Never create a remote, change visibility, push, deploy or migrate unasked. Local scaffold permission is not publish permission.
+
+## Help readers start
+
+Make the root README a short entrypoint for its intended readers: purpose, current stage, first thing to read or try, and links to the authoritative project records. For a public-facing repo, feature a representative example when an approved result is ready. Choose the evidence format by domain. Link from the example to its exact source revision or versioned input, its checks and how to reproduce or challenge it. Use the README for short examples and a separate page for a case that needs more space. Follow [the README and showcase pass](references/workflows.md#readme-and-showcase-pass).
 
 ## The eight roles (each needs one discoverable home)
 1. INTENT: why, owner, scope, success/stop criteria; raw story vs approved intent.

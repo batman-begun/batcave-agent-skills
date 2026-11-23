@@ -22,8 +22,21 @@ Philosophy/contemplation: separate raw observation, interpretation, hypothesis, 
 
 Business/knowledge: designate source of truth for changing data; Git records assumptions and observed snapshots, not automatically the operational database. Timestamp metrics; no credentials or customer records by default. Record decisions with tradeoffs, owners and review trigger. Keep raw transcripts optional and authorization-scoped.
 
+## Choose an example for the intended reader
+
+| Domain | Representative example | Evidence to link |
+|---|---|---|
+| Software or media tools | A real render, a working interaction, or a short before/after | Versioned input, the command or steps, the run record, and what the checks covered |
+| Science or philosophy | A small worked example, derivation, argument map, or counterexample | Definitions, assumptions, each material inference, scope, unresolved objections, and how to reproduce or challenge it |
+| Novel or comic | An approved excerpt, scene or sequence | Version and publishing scope, with canon pointers where the audience may view them |
+| Business or knowledge | A worked process, a decision, or a reproducible synthesis | Approved inputs, provenance, evidence and limits on generalization |
+| Contemplation or other private work | A concise internal starting point | Owner-authorized pointers; use public examples only with separate permission |
+
+A technical derivation or well-sourced text walkthrough can be the complete showcase. Add diagrams or media when they help readers inspect the result.
+
 ## Examples (not actual project state)
 - GiftU-like product: software profile; native source paths + architecture, intent/story and real CI/test gates; approved interaction contract links to UAT.
 - COMIC002-like series: comic + science-fiction knowledge; draft panel image lives in object storage, versioned manifest tracks approved panel and publishing order; optional publishing app has separate software obligations.
-- A theoretical model: science + philosophy; axioms and derivations linked to conjectures, counterexamples, unresolved branches. No accepted hypothesis is presented as verified just because owner likes it.
+- Batcave Agent Skills: software and knowledge. The [public README](https://github.com/batman-begun/batcave-agent-skills/blob/479c9a84be23b26376037e1a21012ab1a00e1bcc/README.md) leads from the FFmpeg render to inputs and replay steps. HanYu and Hallmark link to actual renderer or browser checks. Workflow skills link to a relevant text case.
+- A theoretical world model: science and philosophy. Introduce the question and link to the approved map of entries. Walk through one small instance from scoped premises to one consequence, then show an objection, counterexample or open boundary. Distinguish a derivation within the model from independent support in the world.
 - A private journal: contemplation, micro, local. Current reflections distinct from raw observations; no remote by default.

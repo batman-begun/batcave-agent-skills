@@ -125,9 +125,9 @@
     {
       "id": "universal-project-repository",
       "name": "universal-project-repository",
-      "description": "Set up, resume, audit or hand off durable human–AI projects across software, fiction, comics, research, philosophy, business and mixed domains. Use for new project repositories, substantial checkpoints, canon or specification updates, repository adoption and independent review packets. Skip routine edits and one-off chats unless they affect a durable project record.",
+      "description": "Set up, resume, audit or hand off durable human–AI projects across software, fiction, comics, research, philosophy, business and mixed domains. Use for new project repositories, substantial checkpoints, canon or specification updates, repository adoption, public project entrypoints and independent review packets. Skip routine edits and one-off chats unless they affect a durable project record.",
       "entrypoint": "skills/universal-project-repository/SKILL.md",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "category": "project-management",
       "tags": [
         "project-management",
