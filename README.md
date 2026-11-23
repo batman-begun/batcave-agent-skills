@@ -15,6 +15,7 @@ A portable, publicly readable registry of reusable skills for AI agents. **Disco
 
 - [`coding-agents-collab-contributor`](skills/coding-agents-collab-contributor/SKILL.md)
 - [`coding-agents-collab-leader`](skills/coding-agents-collab-leader/SKILL.md)
+- [`ffmpeg-motion-director`](skills/ffmpeg-motion-director/SKILL.md) — image-to-video direction with 15 FX and a bundled FFmpeg renderer.
 - [`hallmark-web-design`](skills/hallmark-web-design/SKILL.md)
 - [`hanyu-visual-lab`](skills/hanyu-visual-lab/SKILL.md)
 - [`klein-explorer`](skills/klein-explorer/SKILL.md)
@@ -47,7 +48,7 @@ The catalog is generated. Edit `SKILL.md` and optional `skill.meta.json`, not `c
 
 The Batcave-owned registry scaffolding, generator, schema, tests, CI, and repository-level documentation are available under the [MIT License](LICENSE). The catalog is an index. Each package under `skills/` specifies its own licensing scope.
 
-- The seven current skill packages have MIT terms for the Batcave contributions identified in their individual `LICENSE` files.
+- The published skill packages have MIT terms for the Batcave contributions identified in their individual `LICENSE` files.
 - Hallmark Web Design retains the [upstream MIT notice](skills/hallmark-web-design/LICENSE.upstream) for material from Nutlope/Hallmark.
 - WonderAnime's MIT grant covers its written material. Its visual reference and near-miss image sets remain private and have no public license grant.
 - External materials and future assets follow their own terms.
