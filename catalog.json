@@ -109,6 +109,26 @@
       "runtime_requirements": [
         "optional:python3-for-cli"
       ]
+    },
+    {
+      "id": "wonderanime-gouache-grungecel-image",
+      "name": "wonderanime-gouache-grungecel-image",
+      "description": "Apply the WonderAnime Gouache/Grungecel house style to image generation, reference-based editing, or prompt writing. Use when asked for WonderAnime, WonderAnime V3, Grungecel, or the WonderAnime house style.",
+      "entrypoint": "skills/wonderanime-gouache-grungecel-image/SKILL.md",
+      "version": "3.0.0",
+      "category": "design",
+      "tags": [
+        "image-generation",
+        "image-editing",
+        "prompt-writing",
+        "anime",
+        "gouache",
+        "grungecel"
+      ],
+      "runtime_requirements": [
+        "optional:image-generation",
+        "optional:image-editing-and-reference-input"
+      ]
     }
   ]
 }
