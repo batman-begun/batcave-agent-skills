@@ -1,6 +1,6 @@
 # Batcave Agent Skills — Universal Public Registry
 
-**Status:** Scaffolding only. No skills are published in this starter until each has been reviewed and authorized for public release.
+**Status:** Active public skill registry. Published skills are listed below.
 
 A portable, publicly readable registry of reusable skills for AI agents. **Discovery first; compatibility and installation are separate questions.**
 
@@ -11,11 +11,21 @@ A portable, publicly readable registry of reusable skills for AI agents. **Disco
 - [Current status](state/STATUS.md) — observed state and next action.
 - [Tests and validation](verification/SOFTWARE.md) — run before publishing.
 
-## Install/discover
+## Published skills
 
-Anyone can read this public repository's `catalog.json` to discover available skills. Each entry points to the corresponding `SKILL.md`, which uses the [Agent Skills](https://agentskills.io/specification) convention.
+- [`coding-agents-collab-contributor`](skills/coding-agents-collab-contributor/SKILL.md)
+- [`coding-agents-collab-leader`](skills/coding-agents-collab-leader/SKILL.md)
+- [`hallmark-web-design`](skills/hallmark-web-design/SKILL.md)
+- [`hanyu-visual-lab`](skills/hanyu-visual-lab/SKILL.md)
+- [`klein-explorer`](skills/klein-explorer/SKILL.md)
+- [`universal-project-repository`](skills/universal-project-repository/SKILL.md)
+- [`wonderanime-gouache-grungecel-image`](skills/wonderanime-gouache-grungecel-image/SKILL.md)
 
-Hermes supports `skills/`-based GitHub taps, for example (after creating the repository):
+## Discover and load
+
+Read [catalog.json](catalog.json) on `main` for the current inventory. If your reader cannot follow GitHub file links, use the [raw JSON catalog](https://raw.githubusercontent.com/batman-begun/batcave-agent-skills/main/catalog.json). Each entry points to the corresponding `SKILL.md`, which uses the [Agent Skills](https://agentskills.io/specification) convention.
+
+Hermes supports `skills/`-based GitHub taps, for example:
 
 ```bash
 hermes skills tap add batman-begun/batcave-agent-skills

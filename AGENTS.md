@@ -1,6 +1,6 @@
 # Agent entrypoint
 
-Read in order: `README.md` → `PROJECT.json` → `state/STATUS.md` → `knowledge/CONSTRAINTS.md`. Load only the relevant skill's `SKILL.md` and supporting files on demand.
+Read in order: `README.md` → `PROJECT.json` → `state/STATUS.md` → `knowledge/CONSTRAINTS.md`. For skill discovery, read [catalog.json](catalog.json) on `main` and load only the selected entrypoint and its supporting files. If the catalog cannot be fetched, the README lists direct skill entrypoints.
 
 This public repository is for discoverable, approved skills. Do not import a Library archive, private files, credentials, personal memories, external links with tokens, or copyrighted third-party assets directly into `skills/`.
 
