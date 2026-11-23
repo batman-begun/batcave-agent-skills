@@ -1,0 +1,16 @@
+{
+  "version": "3.0.0",
+  "category": "design",
+  "tags": [
+    "image-generation",
+    "image-editing",
+    "prompt-writing",
+    "anime",
+    "gouache",
+    "grungecel"
+  ],
+  "runtime_requirements": [
+    "optional:image-generation",
+    "optional:image-editing-and-reference-input"
+  ]
+}
