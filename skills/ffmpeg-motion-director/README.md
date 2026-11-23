@@ -2,6 +2,8 @@
 
 Turn still images into short cinematic clips with 15 procedural motion effects. The agent inspects the images and chooses an effect for each scene. The bundled Python and FFmpeg runner renders the motion plan locally, checks the video and packages the batch. The default clip is a silent 30-second, 854 × 480, 24 fps H.264 MP4.
 
+[See a rendered clip and all 15 effects](../../docs/showcase/ffmpeg-motion-director/README.md).
+
 ## Use with an agent
 
 Load [SKILL.md](SKILL.md) and explicitly ask to use `ffmpeg-motion-director` on your images. The agent needs access to the local input files, a shell, a way to inspect contact sheets and QC previews, and a way to deliver the ZIP files. After each batch, say **Next** to continue. The final batch can have fewer than five clips.
