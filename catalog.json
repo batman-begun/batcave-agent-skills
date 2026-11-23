@@ -2,6 +2,40 @@
   "schema": "batcave-skills/catalog/v1",
   "skills": [
     {
+      "id": "coding-agents-collab-contributor",
+      "name": "coding-agents-collab-contributor",
+      "description": "Implement assigned tasks as a contributor in a multi-agent GitHub project. Read the handoff, work on an assigned branch, verify changes, record evidence, and open a PR for the project leader. Route merge and release to the leader.",
+      "entrypoint": "skills/coding-agents-collab-contributor/SKILL.md",
+      "version": "1.0.0",
+      "category": "project-management",
+      "tags": [
+        "multi-agent",
+        "github",
+        "handoff",
+        "coding-contributor"
+      ],
+      "runtime_requirements": [
+        "git-or-github-access"
+      ]
+    },
+    {
+      "id": "coding-agents-collab-leader",
+      "name": "coding-agents-collab-leader",
+      "description": "Lead a multi-agent GitHub project. Set scope, assign contributors, review evidence, merge approved pull requests, handle authorized releases, and maintain the project handoff. Use when designated as project leader.",
+      "entrypoint": "skills/coding-agents-collab-leader/SKILL.md",
+      "version": "1.0.0",
+      "category": "project-management",
+      "tags": [
+        "multi-agent",
+        "github",
+        "handoff",
+        "project-lead"
+      ],
+      "runtime_requirements": [
+        "git-or-github-access"
+      ]
+    },
+    {
       "id": "hanyu-visual-lab",
       "name": "hanyu-visual-lab",
       "description": "Build one or more Chinese–Pinyin–Vietnamese kawaii educational infographic images from either a three-column vocabulary/phrase table (Data Mode) or a topic/request (Topic Mode). Plans lessons, validates language, designs textless illustrations, lays out exact multilingual typography in code, runs visual QA, and exports PNG plus editable HTML and JSON.",
